@@ -33,4 +33,6 @@ form.addEventListener("submit", function (event) {
   // Show welcome message
   const message = `🎉 Welcome, ${name} from ${teamName}`;
   console.log(message);
+
+  form.reset();
 })
